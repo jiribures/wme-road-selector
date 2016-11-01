@@ -2666,6 +2666,7 @@ function roadSelector_init()
 						+ '<td><button class="btn btn-default" id="btnRSAddState">+</button></td></tr>';
 	}
 	str  += '<tr><td><label for="inRSCity">City</label><select id="opRSCity"></select>'
+						+ '<input  type="text" id="inRSCity" onclick="this.focus();this.select()" size="10">'
 						+ '<select id="selRSAltCity"><option value="0">prim.</option><option value="1">alt.</option><option value="2">any</option></select></td>'
 						+ '<td><button class="btn btn-default" id="btnRSAddCity">+</button></td></tr>'
 					+ '<tr><td><label for="inRSStreet">Street</label><select id="opRSStreet"></select>'
